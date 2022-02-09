@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Code Homework #1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
         <style>
             body {background-color: #EDEAE4; }
             h1   {font-family: sans-serif; color: #28282A; font-size: 23px; font-weight: 800; margin-left: 100px;}
@@ -26,7 +25,7 @@
         <h1>CHALLENGE ONE <br> CORRECT CHANGE</h1>
         <?php
         // declare variable for input
-        $changedue = 4291;
+        $changedue = 42444;
         echo "<p>Your change is \$" . $changedue/100 . ". <br>";
 
         // declaring values for bills and coins
@@ -59,7 +58,5 @@
                 echo "<p>" . $bottlenumber . " bottles of beer on the wall, " . $bottlenumber . " bottles of beer! <br> Take one down and pass it around, " . ($bottlenumber - 1) . " bottles of beer! </p>";
             }
          ?>
-
-        <script src="" async defer></script>
     </body>
 </html>
