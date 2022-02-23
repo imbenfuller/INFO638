@@ -79,19 +79,25 @@
 
 <div class="results">
  <?php
-
+// declare function with variable input
    function cointoss($n) {
-    $headCount = '';
+       // declare counts of heads flipped
+    $headsFlipped = '';
+    // declare flip count
     $flipCount = '';
-    while ($headCount < $n) {
+    // initiate loop for flipping until heads in a row reaches input n
+    while ($headsFlipped < $n) {
+        // flip randomizer
         $flip = rand(0,1);
+        // incremental flip count
         $flipCount ++;
+        // if flip is true then return heads
         if ($flip){
-            $headCount ++;
+            $headsFlipped ++;
             echo "<img src='heads.png' style='width:50px;height:50px;'/>";
-        }
+        } // else return tails
         else {
-            $headCount = 0;
+            $headsFlipped = 0;
             echo "<img src='tails.png' style='width:50px;height:50px;'/>";
         }
     }
