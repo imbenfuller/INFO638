@@ -1,0 +1,229 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: #ECEAE5;
+  }
+  
+  .navlinks {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navlinks a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #28282A;
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+  }
+  #home img {
+    width: 40%;
+  }
+  .navcenter {
+      align-items: center; 
+  }
+
+  .featured-container {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+  }
+  .featured {
+    float: right;
+  }
+  .productdescription {
+    margin-top: 100px;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .productgridcontainer {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .product-card {
+    display: flex;
+   overflow: hidden;
+   aspect-ratio: 1;
+  }
+
+  .product-card img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .c1 {
+    text-align: right;
+    padding-right: 24px;
+  }
+.productdetailcontainer {
+  margin-top: 70px;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+}
+  .productdetails {
+    margin-top: 70px;
+    display: flex;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .productimg {
+    flex: 30%;
+    width: 30vw;
+  }
+  .productcol {
+    flex: 50%;
+  }
+ 
+  .inquiryimg {
+    max-width: 30vw;
+    max-height: 20vw;
+    flex-shrink: 0;
+  }
+
+  .hero {
+    margin-top: 64px;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-header {
+    font-size: 144px;
+    font-family: 'DM Serif Display', serif;
+    color: #28282A;
+    line-height: 120px;
+    font-weight: 100;
+  }
+  .subhead {
+    font-size: 32px;
+  }
+  h1, h2, h3, h4, h5 {
+      font-family: 'DM Serif Display', serif;
+      color: #28282A;
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #28282a;
+  }
+
+  #hero-img-1 {
+    width: 80%;
+  }
+  #hero-img-2 {
+    width: 18%;
+    margin-right: 0;
+    margin-left: auto;
+    padding-right: 0;
+  }
+ 
+  body {
+    background-color: #ECEAE5;
+  }
+.email-signup {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  clear: right;
+  padding: 70px 0 140px;
+  
+}
+
+.email-signup-1 {
+  max-width: 95vw;
+  margin-left: auto;
+  margin-right: 200px;
+  clear: right;
+  padding: 70px 0 140px;
+  float: right;
+}
+.productimage {
+  width: 40vw;
+}
+
+.inquiryhead {
+  margin-top: 70px;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inquiryform {
+  width: 95vw;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+  
+}
+
+.menulinks {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menulinks a {
+  text-decoration: none;
+}
+
+
+#menu1 {
+  width: 50vw;
+  margin-right: auto
+
+}
+#menu2 {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+
+}
+#menu3  {
+  width: 50vw;
+  margin-left: auto;
+}
+
+.studiocontainer {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px
+}
+
+.studioimg img {
+  width: 20%;
+}
